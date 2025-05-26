@@ -64,6 +64,9 @@ function Login() {
         <p className="register-link">
           Ainda não tem uma conta ? <Link to="/cadastro"> Cadastre - se </Link>{" "}
         </p>{" "}
+        <p className="recover-link">
+          <Link to="/recuperar">Recuperar conta</Link>
+        </p>
       </form>{" "}
     </div>
   );
