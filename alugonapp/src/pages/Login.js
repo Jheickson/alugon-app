@@ -24,7 +24,7 @@ function Login() {
 
         navigate("/perfil");
       } else {
-        alert("Erro ao fazer login: " + data.message);
+        alert("Erro ao fazer login: " + data.error);
       }
     } catch (error) {
       alert("Erro ao conectar ao servidor.");
